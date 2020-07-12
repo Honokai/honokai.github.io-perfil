@@ -1,0 +1,71 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.top-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(41, 73, 161, 0.623);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.top-menu > .esquerda {
+    text-align: left;
+    width: 48%;
+    float: left;
+    margin-left: 15px;
+}
+
+.top-menu > .direita {
+    text-align: right;
+    width: 48%;
+    float: left;
+    margin-right: 15px;
+}
+
+.top-menu > .esquerda > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.top-menu > .direita > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    height: fit-content;
+    z-index: -1;
+}
+
+.cartao {
+    display: inline-block;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    margin-left: 10px;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 10px;
+    border: 1px solid rgb(145, 144, 144);
+}
+
+.cartao:hover {
+    box-shadow: 1px 1px 5px 1px rgba(51, 50, 50, 0.5);
+}
+
+.cartao > .cartao-titulo {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+
+}
